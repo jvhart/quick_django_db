@@ -37,7 +37,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    'qdb',
 ]
+
+REGISTERED_CLASSES = ['ExampleTable',]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
