@@ -18,5 +18,5 @@ class ExampleTable(models.Model):
         verbose_name = 'Example Table Records'
         verbose_name_plural = 'Example Table Records'
 
-    def list_display(self):
+    def admin_list_display(self):
         return ['last_name', 'first_name','record_create_dt']
